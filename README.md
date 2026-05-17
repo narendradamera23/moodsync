@@ -9,7 +9,7 @@ Not a playlist. Not an algorithm. A song that understands you.
 
 ---
 
-## 😔 The Problem
+##  The Problem
 
 You've been there. It's late. Something happened — good or bad.
 You open Spotify and stare at it. Nothing feels right.
@@ -19,7 +19,7 @@ That's what MoodSync solves.
 
 ---
 
-## ✨ How It Works
+##  How It Works
 
 ```
 You describe how you feel → AI reads the emotion deeply
@@ -31,7 +31,7 @@ No searching. No scrolling. Just the right song, instantly.
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 **[moodsync-eta.vercel.app](https://moodsync-eta.vercel.app)**
 
@@ -42,17 +42,17 @@ Try typing something like:
 
 ---
 
-## ⚡ Features
+##  Features
 
-- 🧠 **Deep emotion reading** — not just happy/sad, but the specific flavor of your feeling
-- 🎨 **Mood-reactive UI** — background color shifts with your emotion in real time
-- 📺 **Embedded YouTube player** — full songs play right inside the app, free
-- 🟢 **Spotify integration** — open any song in Spotify instantly
-- ✨ **Glassmorphism design** — floating music notes, smooth animations
+-  **Deep emotion reading** — not just happy/sad, but the specific flavor of your feeling
+-  **Mood-reactive UI** — background color shifts with your emotion in real time
+-  **Embedded YouTube player** — full songs play right inside the app, free
+-  **Spotify integration** — open any song in Spotify instantly
+-  **Glassmorphism design** — floating music notes, smooth animations
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -64,7 +64,7 @@ Try typing something like:
 
 ---
 
-## 🔧 Run Locally
+##  Run Locally
 
 ```bash
 git clone https://github.com/narendradamera23/moodsync
