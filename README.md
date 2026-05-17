@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎵 MoodSync
 
-## Getting Started
+> *Spotify knows what you listened to. MoodSync knows how you actually feel.*
 
-First, run the development server:
+Most music apps ask you what you want to listen to.
+MoodSync asks how you actually feel — and finds the song that fits that exact moment.
+
+Not a playlist. Not an algorithm. A song that understands you.
+
+---
+
+## 😔 The Problem
+
+You've been there. It's late. Something happened — good or bad.
+You open Spotify and stare at it. Nothing feels right.
+You don't want a "sad playlist". You want *the* song for *this* moment.
+
+That's what MoodSync solves.
+
+---
+
+## ✨ How It Works
+
+```
+You describe how you feel → AI reads the emotion deeply
+→ Finds the perfect song → Plays it right there
+→ Background changes color to match your mood
+```
+
+No searching. No scrolling. Just the right song, instantly.
+
+---
+
+## 🚀 Live Demo
+
+**[moodsync-eta.vercel.app](https://moodsync-eta.vercel.app)**
+
+Try typing something like:
+- *"It's 2am, I just finished something I worked on for months. I feel proud but empty."*
+- *"Sunday evening, had a great day with friends, feeling alive and grateful."*
+- *"Got rejected from a job I really wanted. Feeling lost."*
+
+---
+
+## ⚡ Features
+
+- 🧠 **Deep emotion reading** — not just happy/sad, but the specific flavor of your feeling
+- 🎨 **Mood-reactive UI** — background color shifts with your emotion in real time
+- 📺 **Embedded YouTube player** — full songs play right inside the app, free
+- 🟢 **Spotify integration** — open any song in Spotify instantly
+- ✨ **Glassmorphism design** — floating music notes, smooth animations
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | Next.js 14 + Tailwind CSS |
+| AI / Emotion | Groq API (LLaMA 3.1) |
+| Music Search | iTunes Search API |
+| Video Playback | YouTube Data API v3 |
+| Deployment | Vercel |
+
+---
+
+## 🔧 Run Locally
+
+```bash
+git clone https://github.com/narendradamera23/moodsync
+cd moodsync
+npm install
+```
+
+Create `.env.local`:
+```
+GROQ_API_KEY=your_key
+YOUTUBE_API_KEY=your_key
+```
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Built by Narendra Damera
